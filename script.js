@@ -31,7 +31,7 @@ function playRound(player, com){
                 return "You lose! invalid input!";         
         }
     }    
-    if(com === "paper"){
+    else if(com === "paper"){
         switch (player){
             case "rock":
                 computerWins++;
@@ -49,7 +49,7 @@ function playRound(player, com){
                 return "You lose! invalid input!";         
         }
     } 
-    if(com === "scissors"){
+    else{
         switch (player){
             case "rock":
                 playerWins++;
